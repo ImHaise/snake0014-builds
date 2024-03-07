@@ -1,10 +1,10 @@
-Corrupt
+CORRUPT
 <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
 
 NOED
 <a href="https://deadbydaylight.fandom.com/it/wiki/Maledizione:_Nessuno_Sfugge_alla_Morte" target="_blank"><img src="Perks\iconPerks_NoOneEscapesDeath.png" title="Maledizione: Nessuno Sfugge alla Morte" alt="Maledizione: Nessuno Sfugge alla Morte" id="noed" class="perk"></a>
 
-IMPASSE
+DEADLOCK
 <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
 
 BRUTAL
