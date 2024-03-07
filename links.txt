@@ -1,50 +1,50 @@
 Corrupt
-<a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\Mali\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
 
 NOED
 <a href="https://deadbydaylight.fandom.com/it/wiki/Maledizione:_Nessuno_Sfugge_alla_Morte" target="_blank"><img src="Perks\iconPerks_NoOneEscapesDeath.png" title="Maledizione: Nessuno Sfugge alla Morte" alt="Maledizione: Nessuno Sfugge alla Morte" id="noed" class="perk"></a>
 
 IMPASSE
-<a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\Gemini\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
 
 BRUTAL
 <a href="https://deadbydaylight.fandom.com/it/wiki/Forza_Brutale?so=search" target="_blank"><img src="Perks\iconPerks_BrutalStrength.png" title="Forza Brutale" alt="Forza Brutale" id="brutal" class="perk"></a>
 
 BAMBOOZLE
-<a href="https://deadbydaylight.fandom.com/it/wiki/Inganno" target="_blank"><img src="Perks\Guam\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Inganno" target="_blank"><img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk"></a>
 
 POP
-<a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\Guam\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
 
 SLOPPY
 <a href="https://deadbydaylight.fandom.com/it/wiki/Macellaio_Approssimativo?so=search" target="_blank"><img src="Perks\iconPerks_SloppyButcher.png" title="Macellaio Approssimativo" alt="Macellaio Approssimativo" id="sloppy" class="perk"></a>
 
 BBQ
-<a href="https://deadbydaylight.fandom.com/it/wiki/Barbecue_%26_Chili?so=search" target="_blank"><img src="Perks\Cannibal\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Barbecue_%26_Chili?so=search" target="_blank"><img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk"></a>
 
 GRIM
-<a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\Ion\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
 
 DMS
-<a href="https://deadbydaylight.fandom.com/it/wiki/Dispositivo_dell'Uomo_Morto?so=search" target="_blank"><img src="Perks\Ukraine\iconPerks_DeadManSwitch.png" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Dispositivo_dell'Uomo_Morto?so=search" target="_blank"><img src="Perks\iconPerks_DeadManSwitch.png" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk"></a>
 
 NOWHERE
-<a href="https://deadbydaylight.fandom.com/it/wiki/Impossibile_Nascondersi" target="_blank"><img src="Perks\Quantum\iconPerks_NowhereToHide.png" title="Impossibile Nascondersi" alt="Impossibile Nascondersi" id="nowhere" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Impossibile_Nascondersi" target="_blank"><img src="Perks\iconPerks_NowhereToHide.png" title="Impossibile Nascondersi" alt="Impossibile Nascondersi" id="nowhere" class="perk"></a>
 
 DARKNESS
-<a href="https://deadbydaylight.fandom.com/it/wiki/Oscurit%C3%A0_Rivelata?so=search" target="_blank"><img src="Perks\Meteor\iconPerks_DarknessRevelated.png" title="Oscurità Rivelata" alt="Oscurità Rivelata" id="darkness" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Oscurit%C3%A0_Rivelata?so=search" target="_blank"><img src="Perks\iconPerks_DarknessRevelated.png" title="Oscurità Rivelata" alt="Oscurità Rivelata" id="darkness" class="perk"></a>
 
 LETHAL
-<a href="https://deadbydaylight.fandom.com/it/wiki/Inseguitore_Letale?so=search" target="_blank"><img src="Perks\Eclipse\iconPerks_LethalPursuer.png" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Inseguitore_Letale?so=search" target="_blank"><img src="Perks\iconPerks_LethalPursuer.png" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk"></a>
 
 COUP
-<a href="https://deadbydaylight.fandom.com/it/wiki/Colpo_di_Grazia?so=search" target="_blank"><img src="Perks\Aurora\iconPerks_CoupDeGrace.png" title="Colpo di Grazie" alt="Colpo di Grazie" id="coup" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Colpo_di_Grazia?so=search" target="_blank"><img src="Perks\iconPerks_CoupDeGrace.png" title="Colpo di Grazie" alt="Colpo di Grazie" id="coup" class="perk"></a>
 
 PAIN RES
-<a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\Ion\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
 
 SPIRIT
-<a href="https://deadbydaylight.fandom.com/it/wiki/Furia_dello_Spirito?so=search" target="_blank"><img src="Perks\Haiti\iconPerks_SpiritFury.png" title="Furia dello Spirito" alt="Furia dello Spirito" id="spiritfury" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Furia_dello_Spirito?so=search" target="_blank"><img src="Perks\iconPerks_SpiritFury.png" title="Furia dello Spirito" alt="Furia dello Spirito" id="spiritfury" class="perk"></a>
 
 ENDURING
 <a href="https://deadbydaylight.fandom.com/it/wiki/Resistente?so=search" target="_blank"><img src="Perks\iconPerks_Enduring.png" title="Resistente" alt="Resistente" id="enduring" class="perk"></a>
@@ -53,10 +53,20 @@ THANA
 <a href="https://deadbydaylight.fandom.com/it/wiki/Tanatofobia?so=search" target="_blank"><img src="Perks\iconPerks_Thatanophobia.png" title="Tanatofobia" alt="Tanatofobia" id="thana" class="perk"></a>
 
 PWYF
-<a href="https://deadbydaylight.fandom.com/it/wiki/Gioca_con_il_tuo_Cibo?so=search" target="_blank"><img src="Perks\DLC2\iconPerks_PlayWithYourFood.png" title="Gioca con il tuo cibo" alt="Gioca con il tuo cibo" id="pwyf" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Gioca_con_il_tuo_Cibo?so=search" target="_blank"><img src="Perks\iconPerks_PlayWithYourFood.png" title="Gioca con il tuo cibo" alt="Gioca con il tuo cibo" id="pwyf" class="perk"></a>
 
 TERRORE
-<a href="https://deadbydaylight.fandom.com/it/wiki/Terrore_Contagioso" target="_blank"><img src="Perks\Mali\iconPerks_InfectiousFright.png" title="Terrore Contagioso" alt="Terrore Contagioso" id="fright" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Terrore_Contagioso" target="_blank"><img src="Perks\iconPerks_InfectiousFright.png" title="Terrore Contagioso" alt="Terrore Contagioso" id="fright" class="perk"></a>
 
 ERUPTION
-<a href="https://deadbydaylight.fandom.com/it/wiki/Eruzione?so=search" target="_blank"><img src="Perks\Eclipse\iconPerks_Eruption.png" title="Eruzione" alt="Eruzione" id="eruption" class="perk"></a>
+<a href="https://deadbydaylight.fandom.com/it/wiki/Eruzione?so=search" target="_blank"><img src="Perks\iconPerks_Eruption.png" title="Eruzione" alt="Eruzione" id="eruption" class="perk"></a>
+
+GIFT OF PAIN
+<a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Dono_del_Dolore" target="_blank"><img src="Perks\iconPerks_ScourgeHookGiftOfPain.png" title="Flagello Appuntito: Dono di dolore" alt="Flagello Appuntito: Dono di dolore" id="gift" class="perk"></a>
+
+ULT WEAPON
+<a href="https://deadbydaylight.fandom.com/it/wiki/Arma_Suprema" target="_blank"><img src="Perks\iconPerks_UltimateWeapon.png" title="Arma Suprema" alt="Arma Suprema" id="weapon" class="perk"></a>
+
+VERGINE DI FERRO
+<a href="https://deadbydaylight.fandom.com/it/wiki/Vergine_di_Ferro?so=search" target="_blank"><img src="Perks\iconPerks_IronMaiden.png" title="Vergine di Ferro" alt="Vergine di ferro" id="ferro" class="perk"></a>
+
