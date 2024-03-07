@@ -1,6 +1,6 @@
 body {
     background-color: black;
-  }
+}
 
 h1 {
     text-align: center;
@@ -96,7 +96,7 @@ h2 {
 }
 
 .perk:hover {
-	box-shadow: 0px 1px 0px white;
+	box-shadow: 0px 1px 0px white;  
 }
 
 .altBuild{
