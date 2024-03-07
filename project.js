@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var characterButtons = document.querySelectorAll('.characterButton');
     var showAllButton = document.getElementById('showAllButton');
     var killers = document.querySelectorAll('.divKiller');
+    var credits = document.querySelector(".posCredits");
 
     characterButtons.forEach(function(button) {
         button.addEventListener('click', function() {
@@ -12,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (killer === selectedKiller) {
                     killer.classList.remove('hidden');
                     killer.classList.add('centered');
+                    credits.classList.add('credits');
                 } else {
                     killer.classList.remove('centered');
                     killer.classList.add('hidden');
@@ -24,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     showAllButton.addEventListener('click', function() {
         killers.forEach(function(killer) {
             killer.classList.remove('hidden', 'centered');
+            credits.classList.remove('credits');
         });
     });
 });

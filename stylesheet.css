@@ -112,3 +112,15 @@ h2 {
 .linkKiller:hover {
     text-decoration: underline;
 }
+
+.credits{
+    margin-top: 600px;
+}
+
+.crediti{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+
