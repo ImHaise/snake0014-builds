@@ -120,7 +120,7 @@ h2{
 }
 
 .perk:hover{
-	box-shadow: 0px 1px 0px white;  
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 .altBuilds{
@@ -206,7 +206,7 @@ h2{
     }
 }
 
-@media only screen and (max-width: 887px) {
+@media only screen and (max-width: 896px) {
     .divKiller .characterButtons{
         width: calc(100% / 4);        
     }
