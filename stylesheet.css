@@ -1,13 +1,13 @@
-body {
+body{
     background-color: black;
 }
 
-h1 {
+h1{
     text-align: center;
     color: white;
 }
 
-h2 {
+h2{
     text-align: center;
     color: white;
 }
@@ -51,65 +51,119 @@ h2 {
     margin: auto;    
 }
 
-#characterButtons {
+#characterButtons{
     text-align: center;
     margin-bottom: 10px;
 }
 
-.characterButton {
+#showAllButton{
     margin: 5px;
-    border-radius: 10px;   
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#showAllButton.active{
+    border: 2px solid darkred;
+}
+
+#showAllButton:hover{
+    border: 2px solid darkred;
+}
+
+#showAllButton:not(.active):focus,
+#showAllButton:not(.active):hover{
+    outline: none;
+}
+
+.characterButton{
+    margin: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.characterButton.active{
+    border: 2px solid darkred;
+}
+
+.characterButton:hover{
+    border: 2px solid darkred;
+}
+
+.characterButton:not(.active):focus,
+.characterButton:not(.active):hover{
+    outline: none;
 }
 
 .hidden{
     display: none;
 }
 
-.centered {
+.centered{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#personaggi {
+#personaggi{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.divKiller {
-    width: calc(100% / 6); /* Assicura che ci siano massimo 6 personaggi per riga */
+.divKiller{
+    width: calc(100% / 6);
     text-align: center;
-    margin: 10px; /* Aggiungi spazio tra i personaggi */
+    margin: 10px;
     border: 5px solid darkred;
     border-radius: 10px;
 }
 
-.killer {
+.killer{
     width: 125px;
     margin-bottom: 10px; 
 }
 
-.perk {
+.perk{
     width: 75px;
 }
 
-.perk:hover {
+.perk:hover{
 	box-shadow: 0px 1px 0px white;  
 }
 
-.altBuild{
-    border-top: 5px;
+.altBuilds{
+    margin: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
-.linkKiller {
+
+.altBuilds.active{
+    border: 2px solid darkred;
+}
+
+.altBuilds:not(.active):focus,
+.altBuilds:not(.active):hover{
+    outline: none;
+}
+
+.linkKiller{
     display: block;
     margin-top: 10px;
     color: white;
     text-decoration: none;
 }
 
-.linkKiller:hover {
+.linkKiller:hover{
     text-decoration: underline;
 }
 
@@ -128,15 +182,15 @@ h2 {
         width: 100%;       
     }
 
-    .killer {
+    .killer{
         width: 120px;
     }
 
-    .perk {
+    .perk{
         width: 75px;
     }
 
-    .centered {
+    .centered{
         position: sticky;
         top: 50%;
         left: 50%;
@@ -150,15 +204,15 @@ h2 {
         width: calc(100% / 4);        
     }
 
-    .killer {
+    .killer{
         width: 120px;
     }
 
-    .perk {
+    .perk{
         width: 70px;
     }
 
-    .centered {
+    .centered{
         position: sticky;
         top: 50%;
         left: 50%;
@@ -172,15 +226,15 @@ h2 {
         width: calc(100% / 4);        
     }
 
-    .killer {
+    .killer{
         width: 110px;
     }
 
-    .perk {
+    .perk{
         width: 60px;
     }
 
-    .centered {
+    .centered{
         position: sticky;
         top: 50%;
         left: 50%;
@@ -189,20 +243,20 @@ h2 {
     }
 }
 
-@media only screen and (max-width: 776px) {
+@media only screen and (max-width: 776px){
     .divKiller .characterButtons{
         width: calc(100% / 4);        
     }
 
-    .killer {
+    .killer{
         width: 110px;
     }
 
-    .perk {
+    .perk{
         width: 60px;
     }
 
-    .centered {
+    .centered{
         position: sticky;
         top: 50%;
         left: 50%;
@@ -217,15 +271,15 @@ h2 {
         margin-top: 200px;
     }
 
-    .killer {
+    .killer{
         width: 80px;
     }
 
-    .perk {
+    .perk{
         width: 40px;
     }
 
-    .centered {
+    .centered{
         position: sticky;
         top: 50%;
         left: 50%;
@@ -235,5 +289,13 @@ h2 {
 
     .linkKiller{
         font-size: 10px;
+    }
+
+    .characterButton{
+        font-size: 12px;
+    }
+
+    .altBuilds{
+        font-size: 12px;
     }
 }
