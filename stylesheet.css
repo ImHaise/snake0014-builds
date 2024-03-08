@@ -56,47 +56,32 @@ h2{
     margin-bottom: 10px;
 }
 
-#showAllButton{
+.characterButton,
+#showAllButton {
     margin: 5px;
+    padding: 4px;
     border-radius: 10px;
     background-color: transparent;
-    border: none;
+    border: 2px solid transparent;
     color: white;
     cursor: pointer;
-}
-
-#showAllButton.active{
-    border: 2px solid darkred;
-}
-
-#showAllButton:hover{
-    border: 2px solid darkred;
-}
-
-#showAllButton:not(.active):focus,
-#showAllButton:not(.active):hover{
     outline: none;
 }
 
-.characterButton{
-    margin: 5px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
-.characterButton.active{
+.characterButton.active,
+#showAllButton.active {
     border: 2px solid darkred;
 }
 
-.characterButton:hover{
+.characterButton:hover,
+#showAllButton:hover {
     border: 2px solid darkred;
 }
 
 .characterButton:not(.active):focus,
-.characterButton:not(.active):hover{
+.characterButton:not(.active):hover,
+#showAllButton:not(.active):focus,
+#showAllButton:not(.active):hover {
     outline: none;
 }
 
