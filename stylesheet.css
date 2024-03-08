@@ -232,4 +232,8 @@ h2 {
         transform: translate(-50%, -50%);
         margin-top: 300px;
     }
+
+    .linkKiller{
+        font-size: 10px;
+    }
 }
