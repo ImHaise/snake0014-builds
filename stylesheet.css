@@ -123,4 +123,113 @@ h2 {
     font-size: 12px;
 }
 
+@media only screen and (max-width: 2000px) {
+    .divKiller .characterButtons{
+        width: 100%;       
+    }
 
+    .killer {
+        width: 120px;
+    }
+
+    .perk {
+        width: 75px;
+    }
+
+    .centered {
+        position: sticky;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 956px) {
+    .divKiller .characterButtons{
+        width: calc(100% / 4);        
+    }
+
+    .killer {
+        width: 120px;
+    }
+
+    .perk {
+        width: 70px;
+    }
+
+    .centered {
+        position: sticky;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 180px;
+    }
+}
+
+@media only screen and (max-width: 887px) {
+    .divKiller .characterButtons{
+        width: calc(100% / 4);        
+    }
+
+    .killer {
+        width: 110px;
+    }
+
+    .perk {
+        width: 60px;
+    }
+
+    .centered {
+        position: sticky;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 180px;
+    }
+}
+
+@media only screen and (max-width: 776px) {
+    .divKiller .characterButtons{
+        width: calc(100% / 4);        
+    }
+
+    .killer {
+        width: 110px;
+    }
+
+    .perk {
+        width: 60px;
+    }
+
+    .centered {
+        position: sticky;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 210px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .divKiller .characterButtons{
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    .killer {
+        width: 80px;
+    }
+
+    .perk {
+        width: 40px;
+    }
+
+    .centered {
+        position: sticky;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 300px;
+    }
+}
