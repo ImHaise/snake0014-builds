@@ -57,6 +57,7 @@ h2{
 }
 
 .characterButton,
+.altBuilds,
 #showAllButton {
     margin: 5px;
     padding: 4px;
@@ -69,6 +70,7 @@ h2{
 }
 
 .characterButton.active,
+.altBuilds.active,
 #showAllButton.active {
     border: 2px solid darkred;
 }
@@ -80,6 +82,8 @@ h2{
 
 .characterButton:not(.active):focus,
 .characterButton:not(.active):hover,
+.altBuilds:not(.active):focus,
+.altBuilds:not(.active):hover,
 #showAllButton:not(.active):focus,
 #showAllButton:not(.active):hover {
     outline: none;
@@ -121,24 +125,6 @@ h2{
 
 .perk:hover{
 	background-color: rgba(255, 255, 255, 0.1);
-}
-
-.altBuilds{
-    margin: 5px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
-.altBuilds.active{
-    border: 2px solid darkred;
-}
-
-.altBuilds:not(.active):focus,
-.altBuilds:not(.active):hover{
-    outline: none;
 }
 
 .linkKiller{
