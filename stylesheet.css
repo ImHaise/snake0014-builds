@@ -76,6 +76,7 @@ h2{
 }
 
 .characterButton:hover,
+.altBuilds:hover,
 #showAllButton:hover {
     border: 2px solid darkred;
 }
