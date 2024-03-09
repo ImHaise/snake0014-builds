@@ -2,9 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var characterButtons = document.querySelectorAll('.characterButton');
     var showAllButton = document.getElementById('showAllButton');
     var killers = document.querySelectorAll('.divKiller');
-    var builds = document.querySelectorAll('.perkKiller');
     var credits = document.querySelector(".posCredits");
-    var altBuildsButtons = document.querySelectorAll('.altBuilds');
 
     showAllButton.addEventListener('click', function() {
         characterButtons.forEach(function(btn) {
@@ -25,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 btn.classList.remove('active');
             });
 
-
             this.classList.add('active');
 
             var characterName = this.getAttribute('data-name');
@@ -40,22 +37,22 @@ document.addEventListener('DOMContentLoaded', function() {
                     killer.classList.remove('centered');
                     killer.classList.add('hidden');
                 }               
-            });   
+            });
         });
     });
 
-    altBuildsButtons.forEach(function(button) {
+    // Gestione del click sui pulsanti alternativi
+    document.querySelectorAll('.altBuilds').forEach(function(button) {
         button.addEventListener('click', function() {
-            altBuildsButtons.forEach(function(btn) {
+            var parentKiller = this.closest('.divKiller');
+            var selectedBuild = this.getAttribute('data-name');
+
+            parentKiller.querySelectorAll('.altBuilds').forEach(function(btn) {
                 btn.classList.remove('active');
             });
             this.classList.add('active');
 
-            var characterName = this.parentElement.classList[1];
-            var selectedBuild = this.getAttribute('data-name');
-            var selectedPerks = document.querySelectorAll('.' + characterName + ' .perkKiller');
-
-            selectedPerks.forEach(function(perk) {
+            parentKiller.querySelectorAll('.perkKiller').forEach(function(perk) {
                 if (perk.classList.contains(selectedBuild)) {
                     perk.classList.remove('hidden');
                 } else {
@@ -65,4 +62,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
