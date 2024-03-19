@@ -57,8 +57,7 @@ h2{
 }
 
 .characterButton,
-.altBuilds,
-#showAllButton {
+.altBuilds {
     margin: 5px;
     padding: 4px;
     border-radius: 10px;
@@ -69,15 +68,30 @@ h2{
     outline: none;
 }
 
+#showAllButton,
+#showAllButtonSurv {
+    margin: 5px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-size: 17px;
+}
+
 .characterButton.active,
 .altBuilds.active,
-#showAllButton.active {
+#showAllButton.active,
+#showAllButtonSurv.active {
     border: 2px solid darkred;
 }
 
 .characterButton:hover,
 .altBuilds:hover,
-#showAllButton:hover {
+#showAllButton:hover,
+#showAllButtonSurv:hover {
     border: 2px solid darkred;
 }
 
@@ -86,7 +100,9 @@ h2{
 .altBuilds:not(.active):focus,
 .altBuilds:not(.active):hover,
 #showAllButton:not(.active):focus,
-#showAllButton:not(.active):hover {
+#showAllButton:not(.active):hover,
+#showAllButtonSurv:not(.active):focus,
+#showAllButtonSurv:not(.active):hover {
     outline: none;
 }
 

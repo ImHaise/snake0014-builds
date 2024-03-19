@@ -1,12 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
     var characterButtons = document.querySelectorAll('.characterButton');
     var showAllButton = document.getElementById('showAllButton');
+    var showAllButtonSurv = document.getElementById('showAllButtonSurv');
     var killers = document.querySelectorAll('.divKiller');
     var credits = document.querySelector(".posCredits");
 
     showAllButton.addEventListener('click', function() {
+        showAllButtonSurv.classList.remove('active');
         characterButtons.forEach(function(btn) {
             btn.classList.remove('active');
+            btn.classList.remove('hidden');
         });
         this.classList.add('active');
 
@@ -16,9 +19,20 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    showAllButtonSurv.addEventListener('click', function() {
+        showAllButton.classList.remove('active');
+        characterButtons.forEach(function(charbutton) {
+            charbutton.classList.add('hidden');
+        });
+        killers.forEach(function(killer) {
+            killer.classList.add('hidden');
+            credits.classList.add('credits');
+        });
+        this.classList.add('active');
+    });
+
     characterButtons.forEach(function(button) {
         button.addEventListener('click', function() {
-            showAllButton.classList.remove('active');
             characterButtons.forEach(function(btn) {
                 btn.classList.remove('active');
             });
