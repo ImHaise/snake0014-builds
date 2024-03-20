@@ -110,7 +110,7 @@ h2{
     display: none;
 }
 
-.centered{
+.centeredKiller{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -129,6 +129,23 @@ h2{
     margin: 10px;
     border: 5px solid darkred;
     border-radius: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 65px;
+    justify-content: center;
+}
+
+.divSurvivor{
+    text-align: center;
+    border: 5px solid darkred;
+    border-radius: 10px;
+}
+
+.perkSurv{
+    margin-top: 20px;
 }
 
 .killer{
@@ -179,6 +196,10 @@ h2{
         width: 100%;       
     }
 
+    .divSurvivor .characterButtons{
+        width: 100%;       
+    }
+
     .killer{
         width: 120px;
     }
@@ -199,6 +220,10 @@ h2{
 @media only screen and (max-width: 956px) {
     .divKiller .characterButtons{
         width: calc(100% / 4);        
+    }
+
+    .divSurvivor .characterButtons{
+        width: calc(100%/4);       
     }
 
     .killer{
@@ -223,6 +248,10 @@ h2{
         width: calc(100% / 4);        
     }
 
+    .divSurvivor .characterButtons{
+        width: calc(100%/4);       
+    }
+
     .killer{
         width: 110px;
     }
@@ -243,6 +272,10 @@ h2{
 @media only screen and (max-width: 776px){
     .divKiller .characterButtons{
         width: calc(100% / 4);        
+    }
+
+    .divSurvivor .characterButtons{
+        width: calc(100%/4);       
     }
 
     .killer{
@@ -266,6 +299,11 @@ h2{
     .divKiller .characterButtons{
         width: 100%;
         margin-top: 200px;
+    }
+
+    .divSurvivor .characterButtons{
+        width: 100%;  
+        margin-top: 200px;     
     }
 
     .killer{

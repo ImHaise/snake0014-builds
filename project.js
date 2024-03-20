@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var characterButtons = document.querySelectorAll('.characterButton');
     var showAllButton = document.getElementById('showAllButton');
     var showAllButtonSurv = document.getElementById('showAllButtonSurv');
+    var survivors = document.querySelectorAll('.divSurvivor');
     var killers = document.querySelectorAll('.divKiller');
     var credits = document.querySelector(".posCredits");
 
@@ -14,8 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
         this.classList.add('active');
 
         killers.forEach(function(killer) {
-            killer.classList.remove('hidden', 'centered');
+            killer.classList.remove('hidden', 'centeredKiller');
             credits.classList.remove('credits');
+        });
+        survivors.forEach(function(surv) {
+            surv.classList.add('hidden');
         });
     });
 
@@ -27,6 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
         killers.forEach(function(killer) {
             killer.classList.add('hidden');
             credits.classList.add('credits');
+        });
+        survivors.forEach(function(surv) {
+            surv.classList.remove('hidden');
         });
         this.classList.add('active');
     });
@@ -45,17 +52,17 @@ document.addEventListener('DOMContentLoaded', function() {
             killers.forEach(function(killer) {
                 if (killer === selectedKiller) {
                     killer.classList.remove('hidden');
-                    killer.classList.add('centered');
+                    killer.classList.add('centeredKiller');
                     credits.classList.add('credits');
                 } else {
-                    killer.classList.remove('centered');
+                    killer.classList.remove('centeredKiller');
                     killer.classList.add('hidden');
                 }               
             });
         });
     });
 
-    // Gestione del click sui pulsanti alternativi
+    
     document.querySelectorAll('.altBuilds').forEach(function(button) {
         button.addEventListener('click', function() {
             var parentKiller = this.closest('.divKiller');
