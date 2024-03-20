@@ -30,10 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         killers.forEach(function(killer) {
             killer.classList.add('hidden');
-            credits.classList.add('credits');
         });
         survivors.forEach(function(surv) {
             surv.classList.remove('hidden');
+            credits.classList.add('credits');
         });
         this.classList.add('active');
     });
