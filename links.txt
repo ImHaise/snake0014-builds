@@ -78,3 +78,6 @@ SAVE THE BEST
 
 BRUTALITA' RAPIDA
 <a href="https://deadbydaylight.fandom.com/it/wiki/Brutalit%C3%A0_Rapida?so=search" target="_blank"><img src="Perks\iconPerks_RapidBrutality.png" title="Brutalità Rapida" alt="Brutalità Rapida" id="rapidbrut" class="perk"></a>
+
+DISSOLUZIONE
+<a href="https://deadbydaylight.fandom.com/it/wiki/Dissoluzione?so=search" target="_blank"><img src="Perks\iconPerks_Dissolution.png" title="Dissoluzione" alt="Dissoluzione" id="dissolution" class="perk"></a>
