@@ -70,3 +70,11 @@ ULT WEAPON
 VERGINE DI FERRO
 <a href="https://deadbydaylight.fandom.com/it/wiki/Vergine_di_Ferro?so=search" target="_blank"><img src="Perks\iconPerks_IronMaiden.png" title="Vergine di Ferro" alt="Vergine di ferro" id="ferro" class="perk"></a>
 
+MAKE YOUR CHOICE
+<a href="https://deadbydaylight.fandom.com/it/wiki/Fa'_la_tua_Scelta?so=search" target="_blank"><img src="Perks\iconPerks_MakeYourChoice.png" title="Fa' la tua Scelta" alt="Fa' la tua Scelta" id="makeyour" class="perk"></a>
+
+SAVE THE BEST
+<a href="https://deadbydaylight.fandom.com/it/wiki/Conserva_il_Meglio_per_la_Fine?so=search" target="_blank"><img src="Perks\iconPerks_SaveTheBestForLast.png" title="Conserva il meglio per la fine" alt="Conserva il meglio per la fine" id="savethebest" class="perk"></a>  
+
+BRUTALITA' RAPIDA
+<a href="https://deadbydaylight.fandom.com/it/wiki/Brutalit%C3%A0_Rapida?so=search" target="_blank"><img src="Perks\iconPerks_RapidBrutality.png" title="Brutalità Rapida" alt="Brutalità Rapida" id="rapidbrut" class="perk"></a>
