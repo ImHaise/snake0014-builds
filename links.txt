@@ -81,3 +81,12 @@ BRUTALITA' RAPIDA
 
 DISSOLUZIONE
 <a href="https://deadbydaylight.fandom.com/it/wiki/Dissoluzione?so=search" target="_blank"><img src="Perks\iconPerks_Dissolution.png" title="Dissoluzione" alt="Dissoluzione" id="dissolution" class="perk"></a>
+
+NO WAY OUT
+<a href="https://deadbydaylight.fandom.com/it/wiki/Nessuna_Via_d'Uscita?so=search" target="_blank"><img src="Perks\iconPerks_NoWayOut.png" title="Nessuna Via d'Uscita" alt="Nessuna Via d'Uscita" id="nowayout" class="perk"></a>
+
+BLOODWARDEN
+<a href="https://deadbydaylight.fandom.com/it/wiki/Custode_Sanguinario?so=search" target="_blank"><img src="Perks\iconPerks_BloodWarden.png" title="Custode Sanguinario" alt="Custode Sanguinario" id="bloodwarden" class="perk"></a>
+
+REMEMBER ME
+<a href="https://deadbydaylight.fandom.com/it/wiki/Ricordati_di_Me?so=search" target="_blank"><img src="Perks\iconPerks_RememberMe.png" title="Ricordati di me" alt="Ricordati di me" id="rememberme" class="perk"></a>
