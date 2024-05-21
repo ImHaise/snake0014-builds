@@ -159,6 +159,7 @@ h2{
 
 .perk:hover{
 	background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
 }
 
 .linkKiller{
@@ -248,12 +249,11 @@ h2{
 }
 
 .modal-content img {
-    width: 80%; /* Riduci la dimensione dell'immagine nel modal */
+    max-width: 40%;
     height: auto;
-    border-radius: 10px;
-    margin-bottom: 15px; /* Spazio tra immagine e descrizione */
+    display: block;
+    margin: 0 auto 10px;
 }
-
 .close {
     color: #aaa;
     float: right;

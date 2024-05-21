@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var modal = document.getElementById("myModal");
     var span = document.getElementsByClassName("close")[0];
     var modalDescription = document.getElementById("modalDescription");
-
+    var modalImg = document.getElementById("modalImg");
+    
     const formattingRules = {
         'bbq': [
             { number: 60, color: 'yellow' },
@@ -20,37 +21,62 @@ document.addEventListener('DOMContentLoaded', function() {
             { text: 'Barbecue & Chili', color: 'red' }
         ],
         'grim': [
-            {number : 1, color: 'cyan'},
-            {text : '-', color: 'cyan'},
-            {number : 3, color: 'cyan'},
-            {number : 4, color: 'cyan'},
+            { number: 1, color: 'cyan' },
+            { text: '-', color: 'cyan' },
+            { number: 3, color: 'cyan' },
+            { number: 4, color: 'cyan' },
             { number: 6, color: 'yellow' },
             { number: 8, color: 'green' },
             { number: 10, color: 'purple' },
             { number: 40, color: 'red' },
             { number: 6, color: 'purple', occurrence: 2 },
-            { text: 'Abbraccio Lugubre', color: 'red'},
-            { text: 'Abbraccio Lugubre', color: 'white', occurrence: 2}
-            
+            { text: 'Abbraccio Lugubre', color: 'red' },
+            { text: 'Abbraccio Lugubre', color: 'white', occurrence: 2 }
         ],
         'anghingo': [
             { number: 35, color: 'yellow' },
             { number: 40, color: 'green' },
             { number: 45, color: 'purple' },
             { number: 20, color: 'yellow' },
-            {text : '-', color: 'yellow'},
-            { text: 'Anghingò', color: 'red'},
-            { text: 'Anghingò', color: 'white', occurrence: 2}
+            { text: '-', color: 'yellow' },
+            { text: 'Anghingò', color: 'red' },
+            { text: 'Anghingò', color: 'white', occurrence: 2 }
         ],
         'DMS': [
             { number: 20, color: 'yellow' },
             { number: 25, color: 'green' },
             { number: 30, color: 'purple' },
-            { text: 'blocchi', color: 'red'},
-            { text: "Dispositivo dell'Uomo Morto", color: 'red'},
-            { text: "Dispositivo dell'Uomo Morto", color: 'white', occurrence: 2}
+            { text: 'blocchi', color: 'red' },
+            { text: "Dispositivo dell'Uomo Morto", color: 'red' },
+            { text: "Dispositivo dell'Uomo Morto", color: 'white', occurrence: 2 }
         ],
-
+        'corrupt': [
+            { number: 3, color: 'yellow' },
+            { number: 80, color: 'yellow' },
+            { number: 100, color: 'green' },
+            { number: 120, color: 'purple' },
+            { text: 'Generatori', color: 'yellow' },
+            { text: 'Intervento Corrotto', color: 'red'},
+            { text: 'Intervento Corrotto', color: 'white', occurrence: 2}
+        ],
+        'noed': [
+            { text: 'Maledizione: Nessuno Sfugge alla Morte', color: 'red'},
+            { text: 'Vulnerabilità', color: 'red'},
+            { number: '2', color: 'yellow' },
+            { number: '3', color: 'green' },
+            { number: '4', color: 'purple' },
+            { number: '4', color: 'yellow', occurrence: 2},
+            { number: '24', color: 'purple' },
+            { number: '30', color: 'red' },
+            { text: 'metri', color: 'yellow'},
+            { text: 'metri', color: 'purple', occurrence: 2}
+        ],
+        'deadlock': [
+            { number: '15', color: 'yellow' },
+            { number: '20', color: 'green' },
+            { number: '25', color: 'purple'}
+        ]
+        
     };
     
     function formatDescription(description, imageId) {
@@ -108,6 +134,8 @@ document.addEventListener('DOMContentLoaded', function() {
             var description = descriptions[imageId];
             var formattedDescription = formatDescription(description, imageId);
             modalDescription.innerHTML = formattedDescription || "Nessuna descrizione disponibile.";
+            modalImg.src = this.src; // Aggiorna la sorgente dell'immagine nel modal
+            modalImg.alt = this.alt; // Aggiorna il testo alternativo dell'immagine nel modal
             modal.style.display = "block";
         });
     });
