@@ -18,59 +18,71 @@
         </div>
     </h2>
     <h3>
-        <p id="update">Aggiornato al 20/03/2024</p>
+        <p id="update">Aggiornato al 20/05/2024</p>
     </h3>
     <div id="tutti">
         <button id="showAllButton" class="active">KILLER</button>
         <button id="showAllButtonSurv">SOPRAVVISSUTO</button>
     </div>
-    <div id="characterButtons">
-        <button class="characterButton" data-name="trapper">CACCIATORE</button>
-        <button class="characterButton" data-name="wraith">SPETTRO</button>
-        <button class="characterButton" data-name="billy">MANDRIANO</button>
-        <button class="characterButton" data-name="nurse">INFERMIERA</button>
-        <button class="characterButton" data-name="huntress">CACCIATRICE</button>
-        <button class="characterButton" data-name="myers">OMBRA</button>
-        <button class="characterButton" data-name="hag">STREGA</button>
-        <button class="characterButton" data-name="doc">DOTTORE</button>
-        <button class="characterButton" data-name="bubba">CANNIBALE</button>
-        <button class="characterButton" data-name="freddy">INCUBO</button>
-        <button class="characterButton" data-name="pig">MAIALE</button>
-        <button class="characterButton" data-name="clown">CLOWN</button>
-        <button class="characterButton" data-name="spirit">SPIRITO</button>
-        <button class="characterButton" data-name="legion">LEGIONE</button>
-        <button class="characterButton" data-name="mala">MALATTIA</button>
-        <button class="characterButton" data-name="ghost">GHOSTFACE</button>
-        <button class="characterButton" data-name="demo">DEMOGORGONE</button>
-        <button class="characterButton" data-name="oni">ONI</button>
-        <button class="characterButton" data-name="slinger">ARALDO DI MORTE</button>
-        <button class="characterButton" data-name="pyr">BOIA</button>
-        <button class="characterButton" data-name="blight">PIAGA</button>
-        <button class="characterButton" data-name="twins">GEMELLI</button>
-        <button class="characterButton" data-name="trick">INGANNATORE</button>
-        <button class="characterButton" data-name="neme">NEMESIS</button>
-        <button class="characterButton" data-name="ceno">CENOBITA</button>
-        <button class="characterButton" data-name="art">ARTISTA</button>
-        <button class="characterButton" data-name="sadako">ONRYŌ</button>
-        <button class="characterButton" data-name="dredge">DRAGA</button>
-        <button class="characterButton" data-name="wesker">MASTERMIND</button>
-        <button class="characterButton" data-name="skull">MERCANTE DI TESCHI</button>
-        <button class="characterButton" data-name="sing">SINGOLARITÀ</button>
-        <button class="characterButton" data-name="alien">XENOMORFO</button>
-        <button class="characterButton" data-name="chucky">TIPO BELLO</button>
-        <button class="characterButton" data-name="ign">IGNOTO</button>
+
+    <div id="dropdownContainer">
+        <select id="characterSelect">
+            <option value="">-- Seleziona un personaggio --</option>
+            <option value="trapper">CACCIATORE</option>
+            <option value="wraith">SPETTRO</option>
+            <option value="billy">MANDRIANO</option>
+            <option value="nurse">INFERMIERA</option>
+            <option value="huntress">CACCIATRICE</option>
+            <option value="myers">OMBRA</option>
+            <option value="hag">STREGA</option>
+            <option value="doc">DOTTORE</option>
+            <option value="bubba">CANNIBALE</option>
+            <option value="freddy">INCUBO</option>
+            <option value="pig">MAIALE</option>
+            <option value="clown">CLOWN</option>
+            <option value="spirit">SPIRITO</option>
+            <option value="legion">LEGIONE</option>
+            <option value="mala">MALATTIA</option>
+            <option value="ghost">GHOSTFACE</option>
+            <option value="demo">DEMOGORGONE</option>
+            <option value="oni">ONI</option>
+            <option value="slinger">ARALDO DI MORTE</option>
+            <option value="pyr">BOIA</option>
+            <option value="blight">PIAGA</option>
+            <option value="twins">GEMELLI</option>
+            <option value="trick">INGANNATORE</option>
+            <option value="neme">NEMESIS</option>
+            <option value="ceno">CENOBITA</option>
+            <option value="art">ARTISTA</option>
+            <option value="sadako">ONRYŌ</option>
+            <option value="dredge">DRAGA</option>
+            <option value="wesker">MASTERMIND</option>
+            <option value="skull">MERCANTE DI TESCHI</option>
+            <option value="sing">SINGOLARITÀ</option>
+            <option value="alien">XENOMORFO</option>
+            <option value="chucky">TIPO BELLO</option>
+            <option value="ign">IGNOTO</option>
+            <!--<option value="vecna">LITCH</option>-->
+        </select>
     </div>
 
+<div id="myModal" class="modal">
+     <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalImg" src="" alt="">
+        <p id="modalDescription"></p>
+    </div>
+</div>
 
 <div class="container inner">
         <!-- SURV BUILD 1-->
         <div class="hidden divSurvivor build-1">
             <a href="" class="linkKiller" target="_blank">CHASE BUILD</a>
             <div class="altPerks perkSurv surv-build1">
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Agilit%C3%A0?so=search" target="_blank"><img src="SurvPerks\iconPerks_Lithe.png" title="Agilità" alt="Agilità" id="lithe" class="perk"></a>
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Determinazione?so=search" target="_blank"><img src="SurvPerks\iconPerks_Resilience.png" title="Determinazione" alt="Determinazione" id="resil" class="perk"></a>
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Momenti_Propizi?so=search" target="_blank"><img src="SurvPerks\iconPerks_WindowsOfOpportunity.png" title="Momenti Propizi" alt="Momenti Propizi" id="windows" class="perk"></a>
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Campione_di_Luce?so=search" target="_blank"><img src="SurvPerks\iconsPerks_ChampionOfLight.png" title="Campione di luce" alt="Campione di luce" id="champion" class="perk"></a>
+                <img src="SurvPerks\iconPerks_Lithe.png" title="Agilità" alt="Agilità" id="lithe" class="perk">
+                <img src="SurvPerks\iconPerks_Resilience.png" title="Determinazione" alt="Determinazione" id="resil" class="perk">
+                <img src="SurvPerks\iconPerks_WindowsOfOpportunity.png" title="Momenti Propizi" alt="Momenti Propizi" id="windows" class="perk">
+                <img src="SurvPerks\iconsPerks_ChampionOfLight.png" title="Campione di luce" alt="Campione di luce" id="champion" class="perk">
             </div>
         </div>
     
@@ -78,10 +90,10 @@
         <div class="hidden divSurvivor build-2">
             <a href="" class="linkKiller" target="_blank">SCATTO BUILD</a>
             <div class="altPerks perkSurv surv-build2">
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Adrenalina?so=search" target="_blank"><img src="SurvPerks\iconPerks_Adrenaline.png" title="Adrenalina" alt="Adrenalina" id="adren" class="perk"></a>
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Fissata?so=search" target="_blank"><img src="SurvPerks\iconPerks_Fixated.png" title="Fissata" alt="Fissata" id="fixated" class="perk"></a>
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Scatto_Improvviso?so=search" target="_blank"><img src="SurvPerks\iconPerks_SprintBurst.png" title="Scatto Improvviso" alt="Scatto Improvviso" id="sprint" class="perk"></a>
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Veglia?so=search" target="_blank"><img src="SurvPerks\iconPerks_Vigil.png" title="Veglia" alt="Veglia" id="vigil" class="perk"></a>
+                <img src="SurvPerks\iconPerks_Adrenaline.png" title="Adrenalina" alt="Adrenalina" id="adren" class="perk">
+                <img src="SurvPerks\iconPerks_Fixated.png" title="Fissata" alt="Fissata" id="fixated" class="perk">
+                <img src="SurvPerks\iconPerks_SprintBurst.png" title="Scatto Improvviso" alt="Scatto Improvviso" id="sprint" class="perk">
+                <img src="SurvPerks\iconPerks_Vigil.png" title="Veglia" alt="Veglia" id="vigil" class="perk">
             </div>
         </div>
     
@@ -89,10 +101,10 @@
         <div class="hidden divSurvivor build-3">
             <a href="" class="linkKiller" target="_blank">ANTI TUNNEL</a>
             <div class="altPerks perkSurv surv-build3">
-                <a href="https://deadbydaylight.fandom.com/it/wiki/In_Via_Ufficiosa?so=search" target="_blank"><img src="SurvPerks\iconPerks_OffTheRecord.png" title="In Via Ufficiosa" alt="In Via Ufficiosa" id="otr" class="perk"></a>
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Agilit%C3%A0?so=search" target="_blank"><img src="SurvPerks\iconPerks_Lithe.png" title="Agilità" alt="Agilità" id="lithe" class="perk"></a>
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Momenti_Propizi?so=search" target="_blank"><img src="SurvPerks\iconPerks_WindowsOfOpportunity.png" title="Momenti Propizi" alt="Momenti Propizi" id="windows" class="perk"></a>
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Adrenalina?so=search" target="_blank"><img src="SurvPerks\iconPerks_Adrenaline.png" title="Adrenalina" alt="Adrenalina" id="adren" class="perk"></a>
+                <img src="SurvPerks\iconPerks_OffTheRecord.png" title="In Via Ufficiosa" alt="In Via Ufficiosa" id="otr" class="perk">
+                <img src="SurvPerks\iconPerks_Lithe.png" title="Agilità" alt="Agilità" id="lithe" class="perk">
+                <img src="SurvPerks\iconPerks_WindowsOfOpportunity.png" title="Momenti Propizi" alt="Momenti Propizi" id="windows" class="perk">
+                <img src="SurvPerks\iconPerks_Adrenaline.png" title="Adrenalina" alt="Adrenalina" id="adren" class="perk">
             </div>
         </div>
     
@@ -100,10 +112,10 @@
         <div class="hidden divSurvivor build-4">
             <a href="" class="linkKiller" target="_blank">GEN RUSH</a>
             <div class="altPerks perkSurv surv-build4">
-                <a href="https://deadbydaylight.fandom.com/it/wiki/D%C3%A9j%C3%A0_Vu" target="_blank"><img src="SurvPerks\iconPerks_DejaVu.png" title="Déjà Vu" alt="Déjà Vu" id="deja" class="perk"></a>
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Iperconcentrazione?so=search" target="_blank"><img src="SurvPerks\iconPerks_Hyperfocus.png" title="Iperconcentrazione" alt="Iperconcentrazione" id="hyper" class="perk"></a>
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Sotto_Controllo?so=search" target="_blank"><img src="SurvPerks\iconPerks_StakeOut.png" title="Sotto Controllo" alt="Sotto Controllo" id="stakeout" class="perk"></a>
-                <a href="https://deadbydaylight.fandom.com/it/wiki/Deadline?so=search" target="_blank"><img src="SurvPerks\iconsPerks_Deadline.png" title="Deadline" alt="Deadline" id="deadline" class="perk"></a>
+                <img src="SurvPerks\iconPerks_DejaVu.png" title="Déjà Vu" alt="Déjà Vu" id="deja" class="perk">
+                <img src="SurvPerks\iconPerks_Hyperfocus.png" title="Iperconcentrazione" alt="Iperconcentrazione" id="hyper" class="perk">
+                <img src="SurvPerks\iconPerks_StakeOut.png" title="Sotto Controllo" alt="Sotto Controllo" id="stakeout" class="perk">
+                <img src="SurvPerks\iconsPerks_Deadline.png" title="Deadline" alt="Deadline" id="deadline" class="perk">
             </div>
         </div>
 
@@ -111,7 +123,7 @@
 
 
 <!-- DIV KILLERS-->
-<div id="personaggi" class="inner">
+<div id="character" class="inner">
     <!-- TRAPPER -->
     <div class="divKiller trapper">
         <a href="https://www.youtube.com/watch?v=nKlGrIG5Qk8&list=PL5a8akpw9S1lItxGNpGb_FB7S52CGvtO3&index=9" class="linkKiller" target="_blank">CACCIATORE</a>
@@ -121,16 +133,16 @@
         <!--<button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller trapper-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Maledizione:_Nessuno_Sfugge_alla_Morte" target="_blank"><img src="Perks\iconPerks_NoOneEscapesDeath.png" title="Maledizione: Nessuno Sfugge alla Morte" alt="Maledizione: Nessuno Sfugge alla Morte" id="noed" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Forza_Brutale?so=search" target="_blank"><img src="Perks\iconPerks_BrutalStrength.png" title="Forza Brutale" alt="Forza Brutale" id="brutal" class="perk"></a>
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\iconPerks_NoOneEscapesDeath.png" title="Maledizione: Nessuno Sfugge alla Morte" alt="Maledizione: Nessuno Sfugge alla Morte" id="noed" class="perk" data-description="">
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_BrutalStrength.png" title="Forza Brutale" alt="Forza Brutale" id="brutal" class="perk">
         </div>
-        <div class="altPerks perkKiller trapper-build2">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Maledizione:_Nessuno_Sfugge_alla_Morte" target="_blank"><img src="Perks\iconPerks_NoOneEscapesDeath.png" title="Maledizione: Nessuno Sfugge alla Morte" alt="Maledizione: Nessuno Sfugge alla Morte" id="noed" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Nessuna_Via_d'Uscita?so=search" target="_blank"><img src="Perks\iconPerks_NoWayOut.png" title="Nessuna Via d'Uscita" alt="Nessuna Via d'Uscita" id="nowayout" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Custode_Sanguinario?so=search" target="_blank"><img src="Perks\iconPerks_BloodWarden.png" title="Custode Sanguinario" alt="Custode Sanguinario" id="bloodwarden" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Ricordati_di_Me?so=search" target="_blank"><img src="Perks\iconPerks_RememberMe.png" title="Ricordati di me" alt="Ricordati di me" id="rememberme" class="perk"></a>
+        <div class="hidden altPerks perkKiller trapper-build2">
+            <img src="Perks\iconPerks_NoOneEscapesDeath.png" title="Maledizione: Nessuno Sfugge alla Morte" alt="Maledizione: Nessuno Sfugge alla Morte" id="noed" class="perk"></a>
+            <img src="Perks\iconPerks_NoWayOut.png" title="Nessuna Via d'Uscita" alt="Nessuna Via d'Uscita" id="nowayout" class="perk">
+            <img src="Perks\iconPerks_BloodWarden.png" title="Custode Sanguinario" alt="Custode Sanguinario" id="bloodwarden" class="perk">
+            <img src="Perks\iconPerks_RememberMe.png" title="Ricordati di me" alt="Ricordati di me" id="rememberme" class="perk">
         </div>
     </div>
 
@@ -143,10 +155,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller wraith-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Inganno" target="_blank"><img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
         </div>
     </div>
 
@@ -159,10 +171,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller billy-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Barbecue_%26_Chili?so=search" target="_blank"><img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Dispositivo_dell'Uomo_Morto?so=search" target="_blank"><img src="Perks\iconPerks_DeadManSwitch.png" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk"></a>
+            <img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk">
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
+            <img src="Perks\iconPerks_DeadManSwitch.png" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk">
         </div>
     </div>
 
@@ -175,10 +187,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller nurse-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Barbecue_%26_Chili?so=search" target="_blank"><img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impossibile_Nascondersi" target="_blank"><img src="Perks\iconPerks_NowhereToHide.png" title="Impossibile Nascondersi" alt="Impossibile Nascondersi" id="nowhere" class="perk"></a>
+            <img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk">
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
+            <img src="Perks\iconPerks_NowhereToHide.png" title="Impossibile Nascondersi" alt="Impossibile Nascondersi" id="nowhere" class="perk">
         </div>
     </div>
 
@@ -191,10 +203,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller huntress-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Barbecue_%26_Chili?so=search" target="_blank"><img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Oscurit%C3%A0_Rivelata?so=search" target="_blank"><img src="Perks\iconPerks_DarknessRevelated.png" title="Oscurità Rivelata" alt="Oscurità Rivelata" id="darkness" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Inseguitore_Letale?so=search" target="_blank"><img src="Perks\iconPerks_LethalPursuer.png" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk">
+            <img src="Perks\iconPerks_DarknessRevelated.png" title="Oscurità Rivelata" alt="Oscurità Rivelata" id="darkness" class="perk">
+            <img src="Perks\iconPerks_LethalPursuer.png" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk">
         </div>
     </div>
     
@@ -207,10 +219,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller myers-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Inganno" target="_blank"><img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Colpo_di_Grazia?so=search" target="_blank"><img src="Perks\iconPerks_CoupDeGrace.png" title="Colpo di Grazie" alt="Colpo di Grazie" id="coup" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\iconPerks_CoupDeGrace.png" title="Colpo di Grazie" alt="Colpo di Grazie" id="coup" class="perk">
         </div>    
     </div>
 
@@ -223,10 +235,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller hag-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Fa'_la_tua_Scelta?so=search" target="_blank"><img src="Perks\iconPerks_MakeYourChoice.png" title="Fa' la tua Scelta" alt="Fa' la tua Scelta" id="makeyour" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_MakeYourChoice.png" title="Fa' la tua Scelta" alt="Fa' la tua Scelta" id="makeyour" class="perk">
         </div>
     </div>
 
@@ -239,16 +251,16 @@
         <!--<button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller doc-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Conserva_il_Meglio_per_la_Fine?so=search" target="_blank"><img src="Perks\iconPerks_SaveTheBestForLast.png" title="Conserva il meglio per la fine" alt="Conserva il meglio per la fine" id="savethebest" class="perk"></a>  
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Brutalit%C3%A0_Rapida?so=search" target="_blank"><img src="Perks\iconPerks_RapidBrutality.png" title="Brutalità Rapida" alt="Brutalità Rapida" id="rapidbrut" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_SaveTheBestForLast.png" title="Conserva il meglio per la fine" alt="Conserva il meglio per la fine" id="savethebest" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_RapidBrutality.png" title="Brutalità Rapida" alt="Brutalità Rapida" id="rapidbrut" class="perk">
         </div>
         <div class="hidden altPerks perkKiller doc-build2">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Brutalit%C3%A0_Rapida?so=search" target="_blank"><img src="Perks\iconPerks_RapidBrutality.png" title="Brutalità Rapida" alt="Brutalità Rapida" id="rapidbrut" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_RapidBrutality.png" title="Brutalità Rapida" alt="Brutalità Rapida" id="rapidbrut" class="perk">
         </div>
     </div>
 
@@ -261,10 +273,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller bubba-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Furia_dello_Spirito?so=search" target="_blank"><img src="Perks\iconPerks_SpiritFury.png" title="Furia dello Spirito" alt="Furia dello Spirito" id="spiritfury" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Resistente?so=search" target="_blank"><img src="Perks\iconPerks_Enduring.png" title="Resistente" alt="Resistente" id="enduring" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Inganno" target="_blank"><img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_SpiritFury.png" title="Furia dello Spirito" alt="Furia dello Spirito" id="spiritfury" class="perk">
+            <img src="Perks\iconPerks_Enduring.png" title="Resistente" alt="Resistente" id="enduring" class="perk">
+            <img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk">
         </div>
     </div>
 
@@ -277,10 +289,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller freddy-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
         </div>
     </div>
 
@@ -293,10 +305,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller pig-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Inganno" target="_blank"><img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
         </div>
     </div>
 
@@ -304,15 +316,21 @@
     <div class="divKiller clown">
         <a href="" class="linkKiller" target="_blank">CLOWN</a>
         <img src="CharPortraits/K12_TheClown_Portrait.png" alt="Clown" id="clown" class="killer"></br>
-        <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
+        <button class="altBuilds active" data-name="clown-build1">BUILD 1</button>
+        <button class="altBuilds" data-name="clown-build2">BUILD 2</button>
+        <!--<button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller clown-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Dispositivo_dell'Uomo_Morto?so=search" target="_blank"><img src="Perks\iconPerks_DeadManSwitch.png" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Forza_Brutale?so=search" target="_blank"><img src="Perks\iconPerks_BrutalStrength.png" title="Forza Brutale" alt="Forza Brutale" id="brutal" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
+            <img src="Perks\iconPerks_BrutalStrength.png" title="Forza Brutale" alt="Forza Brutale" id="brutal" class="perk">
+            <img src="Perks\iconPerks_SaveTheBestForLast.png" title="Conserva il meglio per la fine" alt="Conserva il meglio per la fine" id="savethebest" class="perk">
+            <img src="Perks\iconPerks_RapidBrutality.png" title="Brutalità Rapida" alt="Brutalità Rapida" id="rapidbrut" class="perk">
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+        </div>
+        <div class="hidden altPerks perkKiller clown-build2">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
+            <img src="Perks\iconPerks_DeadManSwitch.png" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk">
+            <img src="Perks\iconPerks_BrutalStrength.png" title="Forza Brutale" alt="Forza Brutale" id="brutal" class="perk">
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
         </div>
     </div>
 
@@ -325,10 +343,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller spirit-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Dono_del_Dolore" target="_blank"><img src="Perks\iconPerks_ScourgeHookGiftOfPain.png" title="Flagello Appuntito: Dono di dolore" alt="Flagello Appuntito: Dono di dolore" id="gift" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_ScourgeHookGiftOfPain.png" title="Flagello Appuntito: Dono di dolore" alt="Flagello Appuntito: Dono di dolore" id="gift" class="perk">
         </div>
     </div>
 
@@ -341,10 +359,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller legion-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Furia_dello_Spirito?so=search" target="_blank"><img src="Perks\iconPerks_SpiritFury.png" title="Furia dello Spirito" alt="Furia dello Spirito" id="spiritfury" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Resistente?so=search" target="_blank"><img src="Perks\iconPerks_Enduring.png" title="Resistente" alt="Resistente" id="enduring" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Tanatofobia?so=search" target="_blank"><img src="Perks\iconPerks_Thatanophobia.png" title="Tanatofobia" alt="Tanatofobia" id="thana" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_SpiritFury.png" title="Furia dello Spirito" alt="Furia dello Spirito" id="spiritfury" class="perk">
+            <img src="Perks\iconPerks_Enduring.png" title="Resistente" alt="Resistente" id="enduring" class="perk">
+            <img src="Perks\iconPerks_Thatanophobia.png" title="Tanatofobia" alt="Tanatofobia" id="thana" class="perk">
         </div>
     </div>
 
@@ -357,10 +375,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller mala-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Gioca_con_il_tuo_Cibo?so=search" target="_blank"><img src="Perks\iconPerks_PlayWithYourFood.png" title="Gioca con il tuo cibo" alt="Gioca con il tuo cibo" id="pwyf" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
+            <img src="Perks\iconPerks_PlayWithYourFood.png" title="Gioca con il tuo cibo" alt="Gioca con il tuo cibo" id="pwyf" class="perk">
         </div>
     </div>
 
@@ -373,10 +391,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller ghost-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Inganno" target="_blank"><img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk"></a>
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk">
         </div>
     </div>
 
@@ -389,10 +407,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller demo-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Dispositivo_dell'Uomo_Morto?so=search" target="_blank"><img src="Perks\iconPerks_DeadManSwitch.png" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Inganno" target="_blank"><img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk"></a>
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
+            <img src="Perks\iconPerks_DeadManSwitch.png" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
+            <img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk">
         </div>
     </div>
 
@@ -405,10 +423,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller oni-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Barbecue_%26_Chili?so=search" target="_blank"><img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Inseguitore_Letale?so=search" target="_blank"><img src="Perks\iconPerks_LethalPursuer.png" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Terrore_Contagioso" target="_blank"><img src="Perks\iconPerks_InfectiousFright.png" title="Terrore Contagioso" alt="Terrore Contagioso" id="fright" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk">
+            <img src="Perks\iconPerks_LethalPursuer.png" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk">
+            <img src="Perks\iconPerks_InfectiousFright.png" title="Terrore Contagioso" alt="Terrore Contagioso" id="fright" class="perk">
         </div>
     </div>
 
@@ -421,10 +439,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller slinger-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Dispositivo_dell'Uomo_Morto?so=search" target="_blank"><img src="Perks\iconPerks_DeadManSwitch.png" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk"></a>
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
+            <img src="Perks\iconPerks_DeadManSwitch.png" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk">
         </div>
     </div>
 
@@ -437,10 +455,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller pyr-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Inseguitore_Letale?so=search" target="_blank"><img src="Perks\iconPerks_LethalPursuer.png" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Sono_Tutt'Orecchi?so=search" target="_blank"><img src="Perks\iconPerks_ImAllEars.png" title="Sono Tutt'Orecchi" alt="Sono Tutt'Orecchi" id="allears" class="perk"></a>
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
+            <img src="Perks\iconPerks_LethalPursuer.png" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_ImAllEars.png" title="Sono Tutt'Orecchi" alt="Sono Tutt'Orecchi" id="allears" class="perk">
         </div>
     </div>
 
@@ -453,16 +471,16 @@
         <!--<button class="altBuilds" data-name="blight-build3">BUILD 3</button>
         <button class="altBuilds" data-name="blight-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller blight-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Eruzione?so=search" target="_blank"><img src="Perks\iconPerks_Eruption.png" title="Eruzione" alt="Eruzione" id="eruption" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impossibile_Nascondersi" target="_blank"><img src="Perks\iconPerks_NowhereToHide.png" title="Impossibile Nascondersi" alt="Impossibile Nascondersi" id="nowhere" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
+            <img src="Perks\iconPerks_Eruption.png" title="Eruzione" alt="Eruzione" id="eruption" class="perk">
+            <img src="Perks\iconPerks_NowhereToHide.png" title="Impossibile Nascondersi" alt="Impossibile Nascondersi" id="nowhere" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
         </div>
         <div class="hidden altPerks perkKiller blight-build2">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Barbecue_%26_Chili?so=search" target="_blank"><img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Inseguitore_Letale?so=search" target="_blank"><img src="Perks\iconPerks_LethalPursuer.png" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk"></a>
+            <img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_LethalPursuer.png" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk">
         </div>
     </div>
     
@@ -475,10 +493,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller twins-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Dono_del_Dolore" target="_blank"><img src="Perks\iconPerks_ScourgeHookGiftOfPain.png" title="Flagello Appuntito: Dono di dolore" alt="Flagello Appuntito: Dono di dolore" id="gift" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_ScourgeHookGiftOfPain.png" title="Flagello Appuntito: Dono di dolore" alt="Flagello Appuntito: Dono di dolore" id="gift" class="perk">
         </div>
     </div>
 
@@ -491,10 +509,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller trick-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Arma_Suprema" target="_blank"><img src="Perks\iconPerks_UltimateWeapon.png" title="Arma Suprema" alt="Arma Suprema" id="weapon" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Vergine_di_Ferro?so=search" target="_blank"><img src="Perks\iconPerks_IronMaiden.png" title="Vergine di Ferro" alt="Vergine di ferro" id="ferro" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_UltimateWeapon.png" title="Arma Suprema" alt="Arma Suprema" id="weapon" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_IronMaiden.png" title="Vergine di Ferro" alt="Vergine di ferro" id="ferro" class="perk">
         </div>
     </div>
 
@@ -507,10 +525,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller neme-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
         </div>
     </div>
 
@@ -523,10 +541,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller ceno-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Inganno" target="_blank"><img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_Bamboozle.png" title="Inganno" alt="Inganno" id="inganno" class="perk">
         </div>
     </div>
 
@@ -539,10 +557,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller art-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Eruzione?so=search" target="_blank"><img src="Perks\iconPerks_Eruption.png" title="Eruzione" alt="Eruzione" id="eruption" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Dispositivo_dell'Uomo_Morto?so=search" target="_blank"><img src="Perks\iconPerks_DeadManSwitch.png" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
+            <img src="Perks\iconPerks_Eruption.png" title="Eruzione" alt="Eruzione" id="eruption" class="perk">
+            <img src="Perks\iconPerks_DeadManSwitch.png" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
         </div>
     </div>
 
@@ -555,10 +573,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller sadako-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Maledizione:_Rovina?so=search" target="_blank"><img src="Perks\iconPerks_Ruin.png" title="Maledizione: Rovina" alt="Maledizione: Rovina" id="ruin" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Maledizione:_Affronta_l%27Oscurit%C3%A0" target="_blank"><img src="Perks\iconPerks_HexFaceTheDarkness.png" title="Maledizione: Affronta l'Oscurità" alt="Maledizione: Affronta l'Oscurità" id="facedark" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Maledizione:_Il_Brivido_della_Caccia" target="_blank"><img src="Perks\iconPerks_ThrillOfTheHunt.png" title="Maledizione: Il Brivido della Caccia" alt="Maledizione: Il Brivido della Caccia" id="thrill" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Maledizione:_Immortale" target="_blank"><img src="Perks\iconPerks_HexUndying.png" title="Maledizione: Immortale" alt="Maledizione: Immortale" id="undying" class="perk"></a>
+            <img src="Perks\iconPerks_Ruin.png" title="Maledizione: Rovina" alt="Maledizione: Rovina" id="ruin" class="perk">
+            <img src="Perks\iconPerks_HexFaceTheDarkness.png" title="Maledizione: Affronta l'Oscurità" alt="Maledizione: Affronta l'Oscurità" id="facedark" class="perk">
+            <img src="Perks\iconPerks_ThrillOfTheHunt.png" title="Maledizione: Il Brivido della Caccia" alt="Maledizione: Il Brivido della Caccia" id="thrill" class="perk">
+            <img src="Perks\iconPerks_HexUndying.png" title="Maledizione: Immortale" alt="Maledizione: Immortale" id="undying" class="perk">
         </div>
     </div>
 
@@ -571,10 +589,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller dredge-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Barbecue_%26_Chili?so=search" target="_blank"><img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
         </div>
     </div>
 
@@ -587,10 +605,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller wesker-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
         </div>
     </div>
 
@@ -603,10 +621,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller knight-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Scarica" target="_blank"><img src="Perks\iconPerks_Surge.png" title="Scarica" alt="Scossa" id="surge" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_Surge.png" title="Scarica" alt="Scossa" id="surge" class="perk">
         </div>
     </div>
 
@@ -619,10 +637,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller skull-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Impasse?so=search" target="_blank"><img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Forza_Brutale?so=search" target="_blank"><img src="Perks\iconPerks_BrutalStrength.png" title="Forza Brutale" alt="Forza Brutale" id="brutal" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
+            <img src="Perks\iconPerks_Deadlock.png" title="Impasse" alt="Impasse" id="deadlock" class="perk">
+            <img src="Perks\iconPerks_BrutalStrength.png" title="Forza Brutale" alt="Forza Brutale" id="brutal" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
         </div>
     </div>
 
@@ -635,10 +653,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller sing-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Inseguitore_Letale?so=search" target="_blank"><img src="Perks\iconPerks_LethalPursuer.png" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Barbecue_%26_Chili?so=search" target="_blank"><img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
+            <img src="Perks\iconPerks_LethalPursuer.png" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk">
+            <img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
         </div>
     </div>
 
@@ -651,10 +669,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller alien-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Eruzione?so=search" target="_blank"><img src="Perks\iconPerks_Eruption.png" title="Eruzione" alt="Eruzione" id="eruption" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
+            <img src="Perks\iconPerks_Eruption.png" title="Eruzione" alt="Eruzione" id="eruption" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
         </div>
     </div>
 
@@ -667,10 +685,10 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller chucky-build1">
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Intervento_Corrotto" target="_blank"><img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Flagello_Appuntito:_Eco_di_Dolore?so=search" target="_blank"><img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk"></a>
-            <a href="https://deadbydaylight.fandom.com/it/wiki/Dissoluzione?so=search" target="_blank"><img src="Perks\iconPerks_Dissolution.png" title="Dissoluzione" alt="Dissoluzione" id="dissolution" class="perk"></a>
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
+            <img src="Perks\iconPerks_CorruptIntervention.png" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
+            <img src="Perks\T_iconPerks_painResonance.png" title="Flagello Appuntito: Eco di Dolore" alt="Flagello Appuntito: Eco di Dolore" id="painres" class="perk">
+            <img src="Perks\iconPerks_Dissolution.png" title="Dissoluzione" alt="Dissoluzione" id="dissolution" class="perk">
         </div>
     </div>
 
@@ -683,12 +701,28 @@
         <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
         <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller ign-build1">
+            <img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
+            <img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
+            <img src="Perks\iconPerks_MakeYourChoice.png" title="Fa' la tua Scelta" alt="Fa' la tua Scelta" id="makeyour" class="perk">
+            <img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk">
+        </div>
+    </div>
+
+    <!-- VECNA -->
+    <!--<div class="divKiller vecna">
+        <a href="" class="linkKiller" target="_blank">IL LITCH</a>
+        <img src="CharPortraits\K36_TheLich_Portrait.webp" alt="VECNA" id="vecna" class="killer"></br>
+             <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
+        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>
+        <div class="altPerks perkKiller vecna-build1">
             <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.png" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
             <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.png" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
             <a href="https://deadbydaylight.fandom.com/it/wiki/Fa'_la_tua_Scelta?so=search" target="_blank"><img src="Perks\iconPerks_MakeYourChoice.png" title="Fa' la tua Scelta" alt="Fa' la tua Scelta" id="makeyour" class="perk"></a>
             <a href="https://deadbydaylight.fandom.com/it/wiki/Barbecue_%26_Chili?so=search" target="_blank"><img src="Perks\iconPerks_BBQAndChili.png" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk"></a>
         </div>
-    </div>
+    </div>-->
 
 </div>
 

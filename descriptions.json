@@ -1,0 +1,6 @@
+{
+    "bbq": "Barbecue & Chili: Dopo aver agganciato un Sopravvissuto, tutti i Sopravvissuti ad almeno 60/50/40 metri di distanza dal Gancio avranno la loro Aura rivelata per 4 secondi.",
+    "grim": "Abbraccio Lugubre: Ogni volta che un Sopravvissuto viene agganciato per la prima volta, Abbraccio Lugubre ottiene +1 Token e si attiva quando ci si allontana di almeno 16 metri dal gancio: 1-3 Tokens: Blocca tutti i Generatori per 6/8/10 seconds. 4 Tokens: Blocca tutti i Generatori per 40 secondi e l'Aura dell'ossessione è rivelata per 6 secondi.",
+    "anghingo": "Anghingò: Dopo aver agganciato un Sopravvissuto, Anghingò si attiva per i prossimi 35/40/45 secondi: Il prossimo Generatore che danneggi perde istantaneamente -20 % del suo progresso attuale.",
+    "DMS": "Dispositivo dell'Uomo Morto: Quando appendi un Sopravvissuto al gancio, Dispositivo dell'Uomo Morto si attiva per i successivi 20/25/30 secondi: Una volta attivo, il Sopravvissuto che smette di riparare un Generatore prima del completamento fa si che l'Entità blocchi il Generatore fino alla fine dell'effetto. I generatori interessati vengono evidenziati da un'aura bianca."
+}
