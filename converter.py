@@ -9,7 +9,7 @@ def convert_to_webp(filename, path="images/"):
     if extension == "png":
         img.save((path+fname+".webp"), "webp", lossless=True)
     elif extension == "jpg" or extension == "jpeg":
-        img.save((path+fname+".webp"), "webp", quality=85)
+        img.save((path+fname+".webp"), "webp", quality=50)
 
 def convert_all(path="images/"):
     for root, dirs, files in os.walk(path):
