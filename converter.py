@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-def convert_to_webp(filename, path="SurvPerks/"):
+def convert_to_webp(filename, path="./"):
     extension = filename.split('.')[-1]
     fname = filename.split('.')[0]
     img = Image.open(path + filename)
@@ -11,7 +11,7 @@ def convert_to_webp(filename, path="SurvPerks/"):
     elif extension == "jpg" or extension == "jpeg":
         img.save((path+fname+".webp"), "webp", quality=10)
 
-def convert_all(path="SurvPerks/"):
+def convert_all(path="./"):
     for root, dirs, files in os.walk(path):
         for imagefile in files:
             if imagefile.endswith(".png") or imagefile.endswith(".jpg") or imagefile.endswith(".jpeg"):
