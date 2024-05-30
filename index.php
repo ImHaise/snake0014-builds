@@ -9,6 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNAKE0014 BUILDS</title>
+    <meta name="description" content="Sito ufficiale di Snake0014, streamer e youtuber italiano di Dead by Daylight. Qui troverai tutte le build che usa in gioco, sia Killer che Sopravvissuto.">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body">
@@ -142,7 +143,7 @@
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_BrutalStrength.webp" title="Forza Brutale" alt="Forza Brutale" id="brutal" class="perk">
         </div>
-        <div class="hidden altPerks perkKiller trapper-build2">
+        <div class="hidden altPerks perkKiller -build2">
             <img src="Perks\iconPerks_NoOneEscapesDeath.webp" title="Maledizione: Nessuno Sfugge alla Morte" alt="Maledizione: Nessuno Sfugge alla Morte" id="noed" class="perk"></a>
             <img src="Perks\iconPerks_NoWayOut.webp" title="Nessuna Via d'Uscita" alt="Nessuna Via d'Uscita" id="nowayout" class="perk">
             <img src="Perks\iconPerks_BloodWarden.webp" title="Custode Sanguinario" alt="Custode Sanguinario" id="bloodwarden" class="perk">
@@ -154,10 +155,10 @@
     <div class="divKiller wraith">
         <a href="https://www.youtube.com/watch?v=sPRoN5TrGc8&list=PL5a8akpw9S1lItxGNpGb_FB7S52CGvtO3&index=10" class="linkKiller" target="_blank">SPETTRO</a>
         <img src="CharPortraits\K02_TheWraith_Portrait.webp" alt="Spettro" id="wraith" class="killer"></br>
-            <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+            <button class="altBuilds active" data-name="wraith-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="wraith-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="wraith-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="wraith-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller wraith-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_Bamboozle.webp" title="Inganno" alt="Inganno" id="inganno" class="perk">
@@ -170,10 +171,10 @@
     <div class="divKiller billy">
         <a href="https://www.youtube.com/watch?v=r705S7nXIiU&list=PL5a8akpw9S1lItxGNpGb_FB7S52CGvtO3&index=12" class="linkKiller" target="_blank">MANDRIANO</a>
         <img src="CharPortraits/K03_TheHillbilly_Portrait.webp" alt="Mandriano" id="billy" class="killer"></br>
-         <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+         <button class="altBuilds active" data-name="billy-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="billy-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="billy-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="billy-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller billy-build1">
             <img src="Perks\iconPerks_BBQAndChili.webp" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk">
             <img src="Perks\T_iconPerks_grimEmbrace.webp" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
@@ -186,10 +187,10 @@
     <div class="divKiller nurse">
         <a href="https://www.youtube.com/watch?v=zpAFldKPIGg&list=PL5a8akpw9S1lItxGNpGb_FB7S52CGvtO3&index=11" class="linkKiller" target="_blank">INFERMIERA</a>
         <img src="CharPortraits/K04_TheNurse_Portrait.webp" alt="Infermiera" id="nurse" class="killer"></br>
-          <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+          <button class="altBuilds active" data-name="nurse-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="nurse-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="nurse-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="nurse-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller nurse-build1">
             <img src="Perks\iconPerks_BBQAndChili.webp" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk">
             <img src="Perks\T_iconPerks_grimEmbrace.webp" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
@@ -202,10 +203,10 @@
     <div class="divKiller huntress">
         <a href="https://www.youtube.com/watch?v=2twzH9oJohc&list=PL5a8akpw9S1lItxGNpGb_FB7S52CGvtO3&index=6" class="linkKiller" target="_blank">CACCIATRICE</a>
         <img src="CharPortraits/K08_TheHuntress_Portrait.webp" alt="Cacciatrice" id="huntress" class="killer"></br>
-           <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+           <button class="altBuilds active" data-name="huntress-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="huntress-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="huntress-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="huntress-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller huntress-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_BBQAndChili.webp" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk">
@@ -218,10 +219,10 @@
     <div class="divKiller myers">
         <a href="https://www.youtube.com/watch?v=_-GpUIXh61M&list=PL5a8akpw9S1lItxGNpGb_FB7S52CGvtO3&index=4" class="linkKiller" target="_blank">OMBRA</a>
         <img src="CharPortraits\K06_TheShape_Portrait.webp" alt="Ombra" id="myers" class="killer"></br>
-        <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="myers-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="myers-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="myers-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="myers-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller myers-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_Bamboozle.webp" title="Inganno" alt="Inganno" id="inganno" class="perk">
@@ -234,10 +235,10 @@
     <div class="divKiller hag">
         <a href="" class="linkKiller" target="_blank">STREGA</a>
         <img src="CharPortraits\K05_TheHag_Portrait.webp" alt="Strega" id="hag" class="killer"></br>
-        <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="hag-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="hag-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="hag-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="hag-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller hag-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
@@ -252,8 +253,8 @@
         <img src="CharPortraits/K07_TheDoctor_Portrait.webp" alt="Dottore" id="doc" class="killer"></br>
         <button class="altBuilds active" data-name="doc-build1">BUILD 1</button>
         <button class="altBuilds" data-name="doc-build2">BUILD 2</button>
-        <!--<button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <!--<button class="altBuilds" data-name="doc-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="doc-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller doc-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_SaveTheBestForLast.webp" title="Conserva il meglio per la fine" alt="Conserva il meglio per la fine" id="savethebest" class="perk">
@@ -272,10 +273,10 @@
     <div class="divKiller bubba">
         <a href="" class="linkKiller" target="_blank">CANNIBALE</a>
         <img src="CharPortraits/K09_TheCannibal_Portrait.webp" alt="Cannibale" id="bubba" class="killer"></br>
-         <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="bubba-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="bubba-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="bubba-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="bubba-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller bubba-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_SpiritFury.webp" title="Furia dello Spirito" alt="Furia dello Spirito" id="spiritfury" class="perk">
@@ -288,10 +289,10 @@
     <div class="divKiller freddy">
         <a href="" class="linkKiller" target="_blank">INCUBO</a>
         <img src="CharPortraits/K10_TheNightmare_Portrait.webp" alt="Incubo" id="freddy" class="killer"></br>
-        <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="freddy-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="freddy-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="freddy-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="freddy-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller freddy-build1">
             <img src="Perks\iconPerks_PopGoesTheWeasel.webp" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
@@ -304,10 +305,10 @@
     <div class="divKiller pig">
         <a href="" class="linkKiller" target="_blank">MAIALE</a>
         <img src="CharPortraits/K11_ThePig_Portrait.webp" alt="Maiale" id="pig" class="killer"></br>
-         <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="pig-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="pig-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="pig-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="pig-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller pig-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_Bamboozle.webp" title="Inganno" alt="Inganno" id="inganno" class="perk">
@@ -322,8 +323,8 @@
         <img src="CharPortraits/K12_TheClown_Portrait.webp" alt="Clown" id="clown" class="killer"></br>
         <button class="altBuilds active" data-name="clown-build1">BUILD 1</button>
         <button class="altBuilds" data-name="clown-build2">BUILD 2</button>
-        <!--<button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <!--<button class="altBuilds" data-name="clown-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="clown-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller clown-build1">
             <img src="Perks\iconPerks_BrutalStrength.webp" title="Forza Brutale" alt="Forza Brutale" id="brutal" class="perk">
             <img src="Perks\iconPerks_SaveTheBestForLast.webp" title="Conserva il meglio per la fine" alt="Conserva il meglio per la fine" id="savethebest" class="perk">
@@ -342,10 +343,10 @@
     <div class="divKiller spirit">
         <a href="" class="linkKiller" target="_blank">SPIRITO</a>
         <img src="CharPortraits/K13_TheSpirit_Portrait.webp" alt="Spirito" id="spirit" class="killer"></br>
-             <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="spirit-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="spirit-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="spirit-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="spirit-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller spirit-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
@@ -358,10 +359,10 @@
     <div class="divKiller legion">
         <a href="" class="linkKiller" target="_blank">LEGIONE</a>
         <img src="CharPortraits/K14_TheLegion_Portrait.webp" alt="Legione" id="legion" class="killer"></br>
-           <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="legion-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="legion-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="legion-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="legion-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller legion-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_SpiritFury.webp" title="Furia dello Spirito" alt="Furia dello Spirito" id="spiritfury" class="perk">
@@ -374,10 +375,10 @@
     <div class="divKiller mala">
         <a href="" class="linkKiller" target="_blank">MALATTIA</a>
         <img src="CharPortraits/K15_ThePlague_Portrait.webp" alt="Malattia" id="mala" class="killer"></br>
-        <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="mala-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="mala-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="mala-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="mala-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller mala-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
@@ -390,10 +391,10 @@
     <div class="divKiller ghost">
         <a href="" class="linkKiller" target="_blank">GHOSTFACE</a>
         <img src="CharPortraits/K16_TheGhostface_Portrait.webp" alt="Ghostface" id="ghost" class="killer"></br>
-          <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="ghost-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="ghost-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="ghost-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="ghost-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller ghost-build1">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
@@ -406,10 +407,10 @@
     <div class="divKiller demo">
         <a href="" class="linkKiller" target="_blank">DEMOGORGONE</a>
         <img src="CharPortraits/K17_TheDemogorgon_Portrait.webp" alt="Demogorgone" id="demo" class="killer"></br>
-               <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="demo-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="demo-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="demo-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="demo-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller demo-build1">
             <img src="Perks\T_iconPerks_grimEmbrace.webp" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
             <img src="Perks\iconPerks_DeadManSwitch.webp" title="Dispositivo dell'Uomo Morto" alt="Dispositivo dell'Uomo Morto" id="DMS" class="perk">
@@ -422,10 +423,10 @@
     <div class="divKiller oni">
         <a href="" class="linkKiller" target="_blank">ONI</a>
         <img src="CharPortraits/K18_TheOni_Portrait.webp" alt="Oni" id="oni" class="killer"></br>
-           <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="oni-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="oni-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="oni-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="oni-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller oni-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_BBQAndChili.webp" title="Barbecue & Chili" alt="Barbecue & Chili" id="bbq" class="perk">
@@ -438,10 +439,10 @@
     <div class="divKiller slinger">
         <a href="" class="linkKiller" target="_blank">ARALDO DI MORTE</a>
         <img src="CharPortraits/K19_TheDeathslinger_Portrait.webp" alt="Araldo di Morte" id="slinger" class="killer"></br>
-           <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="slinger-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="slinger-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="slinger-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="slinger-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller slinger-build1">
             <img src="Perks\T_iconPerks_grimEmbrace.webp" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
@@ -454,10 +455,10 @@
     <div class="divKiller pyr">
         <a href="" class="linkKiller" target="_blank">BOIA</a>
         <img src="CharPortraits/K20_TheExecutioner_Portrait.webp" alt="Boia" id="pyr" class="killer"></br>
-             <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="pyr-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="pyr-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="pyr-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="pyr-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller pyr-build1">
             <img src="Perks\T_iconPerks_grimEmbrace.webp" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
             <img src="Perks\iconPerks_LethalPursuer.webp" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk">
@@ -492,10 +493,10 @@
     <div class="divKiller twins">
         <a href="" class="linkKiller" target="_blank">GEMELLI</a>
         <img src="CharPortraits\K22_TheTwins_Portrait.webp" alt="Gemelli" id="twins" class="killer"></br>
-             <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="twins-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="twins-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="twins-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="twins-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller twins-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
@@ -508,10 +509,10 @@
     <div class="divKiller trick">
         <a href="" class="linkKiller" target="_blank">INGANNATORE</a>
         <img src="CharPortraits\K23_TheTrickster_Portrait.webp" alt="Ingannatore" id="trick" class="killer"></br>
-             <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="trick-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="trick-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="trick-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="trick-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller trick-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_UltimateWeapon.webp" title="Arma Suprema" alt="Arma Suprema" id="weapon" class="perk">
@@ -524,10 +525,10 @@
     <div class="divKiller neme">
         <a href="" class="linkKiller" target="_blank">NEMESIS</a>
         <img src="CharPortraits\K24_TheNemesis_Portrait.webp" alt="Nemesis" id="neme" class="killer"></br>
-        <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="neme-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="neme-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="neme-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="neme-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller neme-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
@@ -540,10 +541,10 @@
     <div class="divKiller ceno">
         <a href="" class="linkKiller" target="_blank">CENOBITA</a>
         <img src="CharPortraits\K25_TheCenobite_Portrait.webp" alt="Cenobita" id="ceno" class="killer"></br>
-             <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="ceno-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="ceno-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="ceno-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="ceno-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller ceno-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
@@ -556,10 +557,10 @@
     <div class="divKiller art">
         <a href="" class="linkKiller" target="_blank">ARTISTA</a>
         <img src="CharPortraits\K26_TheArtist_Portrait.webp" alt="Artista" id="art" class="killer"></br>
-              <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="art-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="art-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="art-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="art-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller art-build1">
             <img src="Perks\T_iconPerks_grimEmbrace.webp" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
             <img src="Perks\iconPerks_Eruption.webp" title="Eruzione" alt="Eruzione" id="eruption" class="perk">
@@ -572,10 +573,10 @@
     <div class="divKiller sadako">
         <a href="" class="linkKiller" target="_blank">ONRYŌ</a>
         <img src="CharPortraits\K27_TheOnryo_Portrait.webp" alt="ONRYŌ" id="sadako" class="killer"></br>
-            <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="sadako-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="sadako-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="sadako-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="sadako-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller sadako-build1">
             <img src="Perks\iconPerks_Ruin.webp" title="Maledizione: Rovina" alt="Maledizione: Rovina" id="ruin" class="perk">
             <img src="Perks\iconPerks_HexFaceTheDarkness.webp" title="Maledizione: Affronta l'Oscurità" alt="Maledizione: Affronta l'Oscurità" id="facedark" class="perk">
@@ -588,10 +589,10 @@
     <div class="divKiller dredge">
         <a href="" class="linkKiller" target="_blank">DRAGA</a>
         <img src="CharPortraits\K28_TheDredge_Portrait.webp" alt="DRAGA" id="dredge" class="killer"></br>
-              <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="dredge-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="dredge-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="dredge-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="dredge-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller dredge-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
@@ -604,10 +605,10 @@
     <div class="divKiller wesker">
         <a href="" class="linkKiller" target="_blank">MASTERMIND</a>
         <img src="CharPortraits\K29_TheMasterMind_Portrait.webp" alt="MASTERMIND" id="wesker" class="killer"></br>
-               <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="wesker-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="wesker-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="wesker-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="wesker-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller wesker-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
@@ -620,10 +621,10 @@
     <div class="divKiller knight">
         <a href="" class="linkKiller" target="_blank">CAVALIERE</a>
         <img src="CharPortraits\K30_TheKnight_Portrait.webp" alt="CAVALIERE" id="knight" class="killer"></br>
-           <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="knight-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="knight-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="knight-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="knight-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller knight-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
@@ -636,10 +637,10 @@
     <div class="divKiller skull">
         <a href="" class="linkKiller" target="_blank">MERCANTE DI TESCHI</a>
         <img src="CharPortraits\K31_TheSkullMerchant_Portrait.webp" alt="MERCANTE DI TESCHI" id="skull" class="killer"></br>
-             <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="skull-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="skull-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="skull-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="skull-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller skull-build1">
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_BrutalStrength.webp" title="Forza Brutale" alt="Forza Brutale" id="brutal" class="perk">
@@ -652,10 +653,10 @@
     <div class="divKiller sing">
         <a href="" class="linkKiller" target="_blank">SINGOLARITÀ</a>
         <img src="CharPortraits\K32_TheSingularity_Portrait.webp" alt="SINGOLARITÀ" id="sing" class="killer"></br>
-            <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="sing-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="sing-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="sing-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="sing-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller sing-build1">
             <img src="Perks\T_iconPerks_grimEmbrace.webp" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
             <img src="Perks\iconPerks_LethalPursuer.webp" title="Inseguitore Letale" alt="Inseguitore Letale" id="lethal" class="perk">
@@ -668,10 +669,10 @@
     <div class="divKiller alien">
         <a href="" class="linkKiller" target="_blank">XENOMORFO</a>
         <img src="CharPortraits\K33_TheXenomorph_Portrait.webp" alt="XENOMORFO" id="alien" class="killer"></br>
-               <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="alien-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="alien-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="alien-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="alien-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller alien-build1">
             <img src="Perks\T_iconPerks_grimEmbrace.webp" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
             <img src="Perks\iconPerks_Eruption.webp" title="Eruzione" alt="Eruzione" id="eruption" class="perk">
@@ -684,10 +685,10 @@
     <div class="divKiller chucky">
         <a href="" class="linkKiller" target="_blank">TIPO BELLO</a>
         <img src="CharPortraits\K34_TheYerkes_Portrait.webp" alt="TIPO BELLO" id="chucky" class="killer"></br>
-              <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="chucky-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="chucky-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="chucky-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="chucky-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller chucky-build1">
             <img src="Perks\T_iconPerks_grimEmbrace.webp" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
             <img src="Perks\iconPerks_CorruptIntervention.webp" title="Intervento Corrotto" alt="Intervento corrotto" id="corrupt" class="perk">
@@ -700,10 +701,10 @@
     <div class="divKiller ign">
         <a href="" class="linkKiller" target="_blank">IGNOTO</a>
         <img src="CharPortraits\K35_TheUnknown_Portrait.webp" alt="IGNOTO" id="ign" class="killer"></br>
-             <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>-->
+        <button class="altBuilds active" data-name="ign-build1">BUILD 1</button>
+        <!--<button class="altBuilds" data-name="ign-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="ign-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="ign-build4">BUILD 4</button>-->
         <div class="altPerks perkKiller ign-build1">
             <img src="Perks\iconPerks_PopGoesTheWeasel.webp" title="Anghingò" alt="Anghingò" id="anghingo" class="perk">
             <img src="Perks\T_iconPerks_grimEmbrace.webp" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk">
@@ -716,10 +717,10 @@
     <!--<div class="divKiller vecna">
         <a href="" class="linkKiller" target="_blank">IL LITCH</a>
         <img src="CharPortraits\K36_TheLich_Portrait.webp" alt="VECNA" id="vecna" class="killer"></br>
-             <!--<button class="altBuilds active" data-name="trapper-build1">BUILD 1</button>
-        <button class="altBuilds" data-name="trapper-build2">BUILD 2</button>
-        <button class="altBuilds" data-name="trapper-build3">BUILD 3</button>
-        <button class="altBuilds" data-name="trapper-build4">BUILD 4</button>
+             <!--<button class="altBuilds active" data-name="-build1">BUILD 1</button>
+        <button class="altBuilds" data-name="-build2">BUILD 2</button>
+        <button class="altBuilds" data-name="-build3">BUILD 3</button>
+        <button class="altBuilds" data-name="-build4">BUILD 4</button>
         <div class="altPerks perkKiller vecna-build1">
             <a href="https://deadbydaylight.fandom.com/it/wiki/Anghing%C3%B2?so=search" target="_blank"><img src="Perks\iconPerks_PopGoesTheWeasel.webp" title="Anghingò" alt="Anghingò" id="anghingo" class="perk"></a>
             <a href="https://deadbydaylight.fandom.com/it/wiki/Abbraccio_Lugubre?so=search" target="_blank"><img src="Perks\T_iconPerks_grimEmbrace.webp" title="Abbraccio Lugubre" alt="Abbraccio Lugubre" id="grim" class="perk"></a>
