@@ -143,7 +143,7 @@
             <img src="Perks\iconPerks_Deadlock.webp" title="Impasse" alt="Impasse" id="deadlock" class="perk">
             <img src="Perks\iconPerks_BrutalStrength.webp" title="Forza Brutale" alt="Forza Brutale" id="brutal" class="perk">
         </div>
-        <div class="hidden altPerks perkKiller -build2">
+        <div class="hidden altPerks perkKiller trapper-build2">
             <img src="Perks\iconPerks_NoOneEscapesDeath.webp" title="Maledizione: Nessuno Sfugge alla Morte" alt="Maledizione: Nessuno Sfugge alla Morte" id="noed" class="perk"></a>
             <img src="Perks\iconPerks_NoWayOut.webp" title="Nessuna Via d'Uscita" alt="Nessuna Via d'Uscita" id="nowayout" class="perk">
             <img src="Perks\iconPerks_BloodWarden.webp" title="Custode Sanguinario" alt="Custode Sanguinario" id="bloodwarden" class="perk">
